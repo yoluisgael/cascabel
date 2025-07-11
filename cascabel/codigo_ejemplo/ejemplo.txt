@@ -1,0 +1,17 @@
+def leer():
+    print("Ingrese número:");
+    a = int(input());
+    return a;
+
+def calcular(a, b):
+    print(a, "+", b, "=", a+b);
+    print(a, "-", b, "=", a-b);
+    print(a, "*", b, "=", a*b);
+    print(a, "/", b, "=", a/b);
+    print(a, "^", b, "=", a**b);
+    return;
+
+
+a = int(leer());
+b = int(leer());
+calcular(a, b);

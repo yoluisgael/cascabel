@@ -1,0 +1,16 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (C:\Users\yolui\Desktop\cascabel\cascabel\Release\) contains files shared from another project (example_win32_directx12.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Application.cpp
+C:\Users\yolui\Desktop\cascabel\cascabel\Application.cpp(1,1): warning C4828: The file contains a character starting at offset 0x4e that is illegal in the current source character set (codepage 65001).
+C:\Users\yolui\Desktop\cascabel\cascabel\Application.cpp(1,1): warning C4828: The file contains a character starting at offset 0x1c17 that is illegal in the current source character set (codepage 65001).
+C:\Users\yolui\Desktop\cascabel\cascabel\Application.cpp(224,17): warning C4804: '%': unsafe use of type 'bool' in operation
+C:\Users\yolui\Desktop\cascabel\cascabel\Application.cpp(225,40): warning C4804: '%': unsafe use of type 'bool' in operation
+C:\Users\yolui\Desktop\cascabel\cascabel\Application.cpp(96,26): warning C4189: 'tab_flags': local variable is initialized but not referenced
+C:\Users\yolui\Desktop\cascabel\cascabel\Application.cpp(254,24): warning C4459: declaration of 'tokens' hides global declaration
+      C:\Users\yolui\Desktop\cascabel\cascabel\Application.cpp(17,20):
+      see declaration of 'tokens'
+  
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 3361 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  cascabel.vcxproj -> C:\Users\yolui\Desktop\cascabel\cascabel\Release\cascabel.exe
